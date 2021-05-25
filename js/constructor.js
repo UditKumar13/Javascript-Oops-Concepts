@@ -1,10 +1,11 @@
-// Consstructor 
+// Constructor 
 
 function Book(title, author, year){
 this.title = title;
 this.author = author ;
 this.year = year ; 
 }
+
 
 // get summary 
 Book.prototype.getSummary = function (){
@@ -39,6 +40,8 @@ console.log(book1.getAge());
 book1.revise('2013');
 console.log(book1.getAge());
 console.log(book1);
+
+
 
 
 
